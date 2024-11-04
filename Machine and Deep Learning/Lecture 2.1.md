@@ -4,6 +4,8 @@
 **Kernel Trick**: enables to operate in a high-dimensional feature space without explicitly computing the coordinates in that space. By using a **kernel function** to compute inner products directly, it allows for efficient computation and handling of non-linear relationships in the original data. 
 
 ![[Pasted image 20241101002719.png]]
+
+
 ## Decision tree
 **Tree-shaped classifier**:
 * In each internal node, test on an individual feature and branch
