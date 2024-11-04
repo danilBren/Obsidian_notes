@@ -1,7 +1,7 @@
 Linear discriminants, classifiers that **do not do** density estimation:
-• Perceptron
-• Fisher classifier
-• Logistic classifier
+• Perceptron [[Discriminative classifiers]]
+• Fisher classifier 
+• Logistic classifier 
 • Least squares
 
 **Perceptron**

@@ -1,4 +1,4 @@
-## Support vector machine
+## Support vector machine [[Discriminative classifiers]]
 **Support vector class**: For separable classes, the decision boundary is determined by the support vectors.
 **Support vector**: data point that lies closest to the decision boundary (or hyperplane) that separates the classes. These points are crucial because they "support" or define the optimal margin between classes.
 **Kernel Trick**: enables to operate in a high-dimensional feature space without explicitly computing the coordinates in that space. By using a **kernel function** to compute inner products directly, it allows for efficient computation and handling of non-linear relationships in the original data. 
@@ -6,7 +6,7 @@
 ![[Pasted image 20241101002719.png]]
 
 
-## Decision tree
+## Decision tree [[Discriminative classifiers]]
 **Tree-shaped classifier**:
 * In each internal node, test on an individual feature and branch
 * In a leaf node, choose an output
@@ -37,7 +37,7 @@ Increase the weights of the erroneously classified objects
 Repeat as long as needed
 Combine
 
-## AdaBoost
+## AdaBoost 
 1. Initialize all objects with an equal weight
 2. Train a simple/weak classifier on weighted samples:  $\hat{y}_m$
 3. Classify the entire dataset, using the weights, and get the error $\epsilon_m$
